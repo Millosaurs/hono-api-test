@@ -1,5 +1,4 @@
 import { serve } from "@hono/node-server";
-
 import app from "@/app";
 import env from "@/env";
 
@@ -13,5 +12,3 @@ serve(
     console.log(`Server is running on http://localhost:${info.port}`);
   },
 );
-
-export default app;
